@@ -1,0 +1,308 @@
+@media only screen and (max-width: 2000px) {
+  html {
+  font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  html {
+  font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  html {
+  font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+  font-size: 10px;
+  }
+}
+
+body {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  margin:0;
+  padding:0
+}
+
+a {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration:none;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #6a707B;
+}
+
+h1 {
+  position:absolute;
+  width:24.94rem;
+  height:2.75rem;
+  left: 8.75rem;
+  top:23.375rem;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #131821;
+
+}
+
+h2 {
+
+  position:absolute;
+  width:25rem;
+  height:3.5rem;
+  left: 8.75rem;
+  top:27rem;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #6A707B;
+
+}
+
+.email-form {
+  position:absolute;
+  left:6.25rem;
+  top: 33.69rem;
+  width:41.44rem;
+  height:4.375rem;
+  border: 0.0625rem solid #E3E3E4;
+  border-left: 0.25rem solid #4066A5;
+  background-color: white;
+}
+.email-form .input-txt {
+  padding:0;
+  margin:0;
+  width:36rem;
+  height:4.375rem;
+  border: 0;
+  position: absolute;
+  left:0;
+  top: 0;
+}
+.email-form .btn {
+  padding:0;
+  margin:0;
+  border:0;
+  width:5.44rem;
+  height:4.375rem;
+  background-color: white;
+  position: absolute;
+  left:36rem;
+  top: 0;
+
+}
+
+
+.email-form .btn img {
+  padding:0;
+  width:1.5rem;
+  height:0.875rem;
+}
+
+.cbx {
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  top: 8.75rem;
+  margin-top:auto;
+  margin-bottom: auto;
+  color: #6a707b;
+}
+.wrapper {
+  width:100%;
+  height: 100%;
+}
+
+.content {
+  width:42.5rem;
+  height: 100%;
+}
+
+.bg-image {
+  background-image: url("images/desktop/image_summer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  left:42.5rem;
+  width: 87.5rem;
+  height: 67.5rem;
+}
+
+.success-img {
+  position: absolute;
+  width:2.75rem;
+  height:4.375;
+  top: 16.8125rem;
+  left: 8.75rem;
+}
+
+.top-bar {
+  position:absolute;
+  display:flex;
+  justify-content: space-between;
+  left:6.25rem;
+  top:6.25rem;
+  width: 30rem;
+  height:2.5rem;
+
+}
+.nav-links {
+  display:flex;
+  justify-content: space-between;
+  margin-top:auto;
+  margin-bottom: auto;
+  width: 15.6rem;
+}
+
+
+.tos {
+  position: absolute;
+  width: 25rem;
+  height: 1.75rem;
+  left: 8.75rem;
+  top: 41.375rem;
+  color: #6a707b;
+}
+.tos a {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #131821;
+  text-decoration: underline;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.media {
+  position: absolute;
+  left: 13.625rem;
+  top: 49.4375rem;
+  width: 15.25rem;
+  height: 2.975rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.media2 {
+  position: absolute;
+  left: 13.625rem;
+  top: 36.875rem;
+  width: 15.25rem;
+  height: 2.975rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  padding: 0.75rem 0.75rem;
+  font-size: 1.875rem;
+  width: 2.875rem;
+  height:2.875rem;
+  text-align: center;
+  text-decoration: none;
+  border-width:thin;
+  border-radius: 50%;
+  border: 0.125rem solid #e3e3e4;
+  box-sizing: border-box;
+  background: white;
+  color: #6a707B;
+
+}
+
+/* Add a hover effect if you want */
+.fa-facebook:hover {
+  background: #4267B2;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-facebook:active {
+  background: #2f4a80;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-instagram:hover {
+  background: #c13584;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-instagram:active {
+  background: #8f2762;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-twitter:hover {
+  background: #1da1f2;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-twitter:active {
+  background: #177fbf;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-youtube:hover {
+  background: #ff0000;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.fa-youtube:active {
+  background: #cc0000;
+  color: white;
+  box-shadow: 0px 1.25rem 2.5rem rgba(19,24,33,0.3);
+}
+
+.line {
+  position: absolute;
+  top: 46.25rem;
+  height:0.0625rem;
+  width: 25rem;
+  left: 8.75rem;
+  background-color: #E3E3E4;
+}
+
+.line2 {
+  position: absolute;
+  top: 33.6875rem;
+  height:0.0625rem;
+  width: 25rem;
+  left: 8.75rem;
+  background-color: #E3E3E4;
+}
+
+.validation-msg {
+    position: absolute;
+    width: 25rem;
+    height: 1.75rem;
+    left: 8.75rem;
+    top: 37.5rem;
+    color: red;
+}
+
+.tos-validation {
+    position: absolute;
+    width: 25rem;
+    height: 1.75rem;
+    left: 8.75rem;
+    top: 43rem;
+    color: red;
+}
